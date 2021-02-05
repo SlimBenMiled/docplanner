@@ -1,0 +1,195 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 1500px; 
+    margin-left: 250px;
+    /* background-color: yellow; */
+    position: fixed;
+    margin-top: 10px;
+    background-color: white;
+  
+    }
+.links{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    justify-content: space-between;
+    color: rgb(116, 116, 116);
+   
+}
+a{
+text-decoration: none;
+color: rgb(116, 116, 116);
+}
+li{
+    list-style: none;
+}
+.dropdown-content{
+    margin-top: 20px;
+    width: 170px;
+    height: 100%;
+    margin-left: -120px;
+    display: none;
+    position: absolute;    
+}
+
+
+
+
+.navbar a:hover,li:hover{
+    color: rgb(0, 179, 155) ;
+}
+.dropdown:hover .dropdown-content {
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    width: 200px;
+}
+
+main .logotype{
+    padding-left: 930px;
+    padding-top: 100px;
+    
+
+}
+.paragraph p{
+    
+    font-size:34px ;
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400px;
+    color: rgb(0, 179, 155);
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+    height: 180px;
+    width: 1000px;
+    margin-left: 460px;
+}
+.p1,.p2{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px ;
+    font-weight: 400px;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+    margin-left: 10px;
+    text-align: left;
+}
+.forpatients{
+    font-family:  "Work Sans", Arial, sans-serif ;
+    font-size: 26px;
+    Font-weight: 400px;
+    Line-height:33.8px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+    .fordoctors{
+        font-family:  "Work Sans", Arial, sans-serif ;
+        font-size: 26px;
+        Font-weight: 400px;
+        Line-height:33.8px;
+        color: rgb(255, 255, 255);
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 20px;
+
+}
+.forclinics{
+    font-family:  "Work Sans", Arial, sans-serif ;
+    font-size: 26px;
+    Font-weight: 400px;
+    Line-height:33.8px;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+
+}
+p{
+    font-family:  "Work Sans", Arial, sans-serif ;
+    font-size: 24px;
+    Font-weight: 300px;
+    Line-height:28.8px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+
+}
+
+.forpatientspr{
+    background-color: teal;
+    height: 370px;
+    width: 270px;
+    border-radius: 12px;
+
+}
+
+.choose{
+    background-color: teal;
+    margin-top: 0px   ;
+    margin-left: 45px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.fordoctorspr{
+    background-color: rgb(8, 12, 221);
+    height: 350px;
+    width: 270px;
+    border-radius: 12px;
+
+}
+.choose1{
+    background-color: rgb(8, 12, 221);
+    margin-top: 0px   ;
+    margin-left: 45px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.forclinicspr{
+    background-color: rgb(207, 54, 74);
+    height: 350px;
+    width: 270px;
+    border-radius: 12px;
+
+}
+.choose2{
+    background-color: rgb(207, 54, 74);;
+   align-items: center;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.choose3{
+    background-color: rgb(207, 54, 74);;
+    align-items: center;    
+    border: none;
+    color: white;
+    font-size: 20px;
+    
+
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 70px;
+
+}
